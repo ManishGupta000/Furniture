@@ -1,0 +1,279 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+}
+body{
+    padding-bottom: 35px;
+}
+/* Navbar */
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 28px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link a{
+    color: black;
+    margin-left: 35px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.stick {
+    margin-right: 20px;
+}
+.menu{
+    display: none;
+}
+
+.link a:hover{
+    color: darkgoldenrod;
+    transition: ease-in-out;
+    transition: all;
+    transition-duration: 0.3sec;
+}
+
+.hero{
+    background-image: url(asset\ 12.png);
+   min-height: 700px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   flex-direction: row-reverse;
+   padding-right: 70px;
+   flex-wrap: wrap;
+   overflow: hidden;
+}      
+
+/* herobox */
+.hero-box{
+    height: 400px;
+    width: 500px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 30px;
+
+
+}
+
+.hero-box p{
+   font-weight: 500;
+   margin-bottom: 20px;
+   font-size: 1.2rem;
+}
+
+.hero-box h1{
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+    font-size: 3rem;
+    /* line-height: 20px; */
+
+ }
+ .btnbox{
+    background-color: darkgoldenrod;
+    height: 48px;
+    width: 100px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+ }
+ .btn{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ .prod-heading{
+    height: auto;
+    padding: 15px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .prod-heading h1{
+    margin-top: 20px;
+   text-align: center;
+ }
+
+ .prod-heading p{
+    margin-top: 20px;
+   text-align: center;
+ }
+
+
+.product{
+    padding-top: 35px;
+    height: auto;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 50px;
+    margin:25px 0px;
+    flex-wrap: wrap;
+    background-color: rgb(242, 247, 238);
+
+}
+
+.box{
+    height: 440px;
+    width: 30%;
+    /* background-color: aqua;
+    border: 2px solid black; */
+    border-radius: 9px;
+}
+.imgbox{
+    height: 380px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 9px;
+}
+
+.box h2{
+    text-align: center;
+    color: rgb(101, 99, 96);
+    margin-top: 13px;
+}
+.ourproductheading{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ourproductheading h {
+   
+    text-align: center; 
+    font-weight: 800; 
+    font-size: 2.5rem
+}
+
+
+
+
+
+.mainproduct{
+    min-height: 410px;
+    width: 100%;
+    background-color: rgb(242, 247, 238);
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 10px 30px;
+}
+
+.mainbox{
+    /* background-color: aqua; */
+    height:370px ;
+    width: 18%;
+    border: 2px solid blcak;
+    border-radius: 9px;
+
+}
+
+.mainproductimg{
+    height:320px ;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 9px;
+}
+
+/* 
+.mainbox{
+    height:370px ;
+    width: 18%;
+    border: 2px solid blcak;
+    border-radius: 9px;
+
+} */
+.mainbox h2{
+    text-align: center;
+    color: rgb(99, 103, 104);
+    margin-top: 12px;
+
+}
+
+
+.showmorediv{
+    height: auto;
+    width: auto;
+margin-top: 35px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.showmore{
+    font-weight: 700;
+    padding-top: 14px;
+    margin-top: 35px;
+    align-items: center;
+    height:48px;
+    color:darkgoldenrod; ;
+    width: 120px;
+    border:1px solid darkgoldenrod;
+    text-align: center;
+    text-decoration:none;
+}
+
+
+
+ /* .navbar{
+    background-color: rgb(255, 162, 39);
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    padding-right: 30px;
+    z-index: 100;
+}  */
+
+ /* footer */
+footer{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+
+    
+} 
+footer h3{
+margin: 20px 0px;
+}
+
+footer p{
+    margin-top: 10px;
+    }
+
+    .secondline{
+        margin-top: 10px;
+
+    }
+

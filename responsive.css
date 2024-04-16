@@ -1,0 +1,143 @@
+/* On screens that are 992px or less*/
+
+@media screen and (max-width: 992px) {
+    body {
+     
+      .stick{
+          display: none;
+      }
+      .navlink{
+          display: none;
+      }
+      .menu{
+          display: block;
+      }
+      .hero{
+        
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-wrap: wrap;
+         padding: 20px;
+    }
+  
+    
+  
+  /* herobox */
+  .hero-box{
+      height: auto;
+      width: 450px;
+      background-color: antiquewhite;
+      border-radius: 10px;
+      padding: 15px;
+      /* margin-left: 55px; */
+      display: flex;
+      flex-direction: column;
+  
+  
+  }
+  
+  .hero-box p{
+     font-weight: 500;
+     margin-bottom: 10px;
+     font-size: 1rem;
+     text-align: center;
+  }
+  
+  .hero-box h1{
+      font-weight: 900;
+      margin-bottom: 10px;
+      color: darkgoldenrod;
+      font-size: 2rem;
+      /* line-height: 20px; */
+      text-align: center;
+  
+   }
+   .btnbox{
+      background-color: darkgoldenrod;
+      height: 48px;
+      width: 100%;
+      border-radius: 3px;
+      display: flex;
+      justify-content: center;
+     align-items: center;
+      margin-top: 20px;
+     
+   }
+   .btn{
+      margin-top: 20px;
+      height: 48px;
+      width: 100%;
+      border-radius: 3px;
+   }
+   
+    
+    
+   .product{
+      height: auto;
+      width: 100%;
+      /* background-color: bisque; */
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0px 15px;
+      margin:25px 0px;
+      flex-wrap: wrap;
+  
+  }
+  
+  .box{
+      height: 330px;
+      width: 40%;
+      /* background-color: aqua;
+      border: 2px solid black; */
+      border-radius: 9px;
+      margin-bottom: 20px;
+  }
+  .imgbox{
+      height: 300px;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 9px;
+  }
+  
+  .box h2{
+      text-align: center;
+      color: rgb(101, 99, 96);
+      margin-top: 13px;
+  }
+  
+  .mainproduct{
+    min-height: 350px;
+    width: 100%;
+    gap:20px;
+    padding: 10px 10px;
+
+}
+.mainbox{
+    height:350px ;
+    width: 30%;
+    border-radius: 9px;
+
+}
+
+  
+
+
+
+
+
+
+
+
+  
+  
+  
+    }
+  
+  
+  
+  }
+  
